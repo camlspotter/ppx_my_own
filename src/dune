@@ -1,0 +1,6 @@
+; dune
+(library
+ (kind ppx_rewriter)        ; kind: ppx_rewriter
+ (name ppx_my_own)
+ ; (public_name ppx_my_own) ; will need ppx_my_own.opam
+ (libraries ppxlib))        ; library: ppxlib
